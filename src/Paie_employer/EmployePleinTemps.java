@@ -14,7 +14,7 @@ public class EmployePleinTemps extends Employe {
 		if (prime >= 0) {
 			this.prime = prime;
 		} else {
-			throw new MontantInvalid("montant negatie");
+			throw new MontantInvalid("montant negative");
 		}
 	}
 
@@ -27,7 +27,7 @@ public class EmployePleinTemps extends Employe {
 		if (montantheb >= 0) {
 			this.montantheb = montantheb;
 		} else {
-			throw new MontantInvalid("montant negatie");
+			throw new MontantInvalid("montant negative");
 		}
 	}
 
